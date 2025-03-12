@@ -1,0 +1,27 @@
+name: mitsuba
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=4.5=1_gnu
+  - ca-certificates=2021.10.8=ha878542_0
+  - certifi=2016.9.26=py27_0
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=9.3.0=h5101ec6_17
+  - libgomp=9.3.0=h5101ec6_17
+  - libstdcxx-ng=9.3.0=hd4cf53a_17
+  - ncurses=6.2=he6710b0_1
+  - pip=19.3.1=py27_0
+  - pybind11=2.4.3=py27h9e3301b_3
+  - python=2.7.18=ha1903f6_2
+  - python_abi=2.7=1_cp27mu
+  - readline=8.1=h27cfd23_0
+  - setuptools=44.0.0=py27_0
+  - sqlite=3.36.0=hc218d9a_0
+  - tk=8.6.10=hbc83047_0
+  - wheel=0.36.2=pyhd3eb1b0_0
+  - zlib=1.2.11=h7b6447c_3
+  - pip:
+    - pathlib==1.0.1
+prefix: /home/juanraul/anaconda3/envs/mitsuba
